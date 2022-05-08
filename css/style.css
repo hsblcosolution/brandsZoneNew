@@ -1,0 +1,32 @@
+header {
+    color: #F8EFEF;
+    background-color: #3A3A3A;
+}
+
+hr {
+    color: #707070;
+}
+
+.header-top,
+.left {
+    display: contents;
+}
+
+.header-top,
+.right {
+    float: right;
+}
+
+.navbar>.container,
+.navbar>.container-fluid,
+.navbar>.container-lg,
+.navbar>.container-md,
+.navbar>.container-sm,
+.navbar>.container-xl,
+.navbar>.container-xxl {
+    display: inline;
+}
+
+.navbar-ul {
+    float: right;
+}
