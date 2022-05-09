@@ -35,7 +35,7 @@ li {
 
 .nav-link:hover {
     color: white;
-    background: red;
+    background: #FF0000;
     border-radius: 8px;
     padding: 5px;
     /* transition: all; */
@@ -59,7 +59,7 @@ li {
 .custom_dropdown_btn {
     display: flex;
     justify-content: space-between;
-    background-color: red;
+    background-color: #FF0000;
 }
 
 .search_input {
@@ -71,7 +71,7 @@ li {
 
 .search_btn {
     color: white;
-    background-color: red;
+    background-color: #FF0000;
     border-bottom-left-radius: 0px;
     border-top-left-radius: 0px;
 }
