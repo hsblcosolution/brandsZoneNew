@@ -13,36 +13,81 @@
 
 <body>
     <header>
-        <div class="header-top">
-            <div class="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, numquam.</div>
-            <div class="right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, numquam.</div>
-        </div>
-        <hr>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid navbar-item">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                <div class="collapse navbar-collapse navbar-ul" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
-                </div>
+        <div class="container">
+            <div class="header_top">
+                <div class="left">Lorem ipsum dolor s Voluptatibus, numquam.</div>
+                <div class="right">Lorem ipsum dolt elit. Voluptatibus, numquam.</div>
             </div>
-        </nav>
+            <hr>
+            <nav class="navbar navbar-expand-sm">
+                <div class="container-fluid navbar-item">
+                    <a class="navbar-brand" href="index.html">BrandsZone</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse navbar-ul custom_nav_ul" id="navbarNav">
+                        <ul class="navbar-nav custom_ul">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Product</a>
+                            </li>
 
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">FAQ</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="header-bottom">
+                <!-- Categories Dropdown  -->
+                <div class="categories-dropdown">
+                    <div class="btn-group custom_dropdown">
+                        <button class="btn btn-secondary btn-m custom_dropdown_btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <div class="justify_icon"><img src="assets/icon/justify.svg" alt=""></i></div>
+                            All Categories
+                            <div class="dropdown-toggle"></div>
+                        </button>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+
+                <!-- SearchBar -->
+                <div class="search-item">
+                    <form class="d-flex">
+                        <input class="form-control search_input" type="search" placeholder="Search Items" aria-label="Search">
+                        <button class="btn search_btn" type="submit">Search Icon</button>
+                    </form>
+                </div>
+
+
+
+
+                <!-- WishList And Cart -->
+                <div class="cart-wishlist">
+                    <strong>WishList & cart</strong>
+                </div>
+
+            </div>
+        </div>
 
     </header>
 
