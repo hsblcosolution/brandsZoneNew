@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap5 css cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>BransZone</title>
@@ -14,112 +15,145 @@
 
 <body>
     <header>
+
         <div class="container">
-            <div class="header_top">
-                <div class="left">Lorem ipsum dolor s Voluptatibus, numquam.</div>
-                <div class="right">Lorem ipsum dolt elit. Voluptatibus, numquam.</div>
-            </div>
-            <hr>
-            <nav class="navbar navbar-expand-sm">
-                <div class="container-fluid navbar-item">
-                    <a class="navbar-brand" href="index.html">BrandsZone</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse navbar-ul custom_nav_ul" id="navbarNav">
-                        <ul class="navbar-nav custom_ul">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About Us</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Product</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">FAQ</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
-                            </li>
-                        </ul>
-                    </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12">
+                    <div class="">Lorem ipsum dolor s Voluptatibus, numquam.</div>
                 </div>
-            </nav>
-            <div class="header-bottom">
-                <!-- Categories Dropdown  -->
-                <div class="categories-dropdown">
-                    <div class="btn-group custom_dropdown">
-                        <button class="btn btn-secondary btn-m custom_dropdown_btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <div class="justify_icon"><img src="assets/icon/justify.svg" alt=""></i></div>
-                            All Categories
-                            <div class="dropdown-toggle custom_dropdown_toggle"></div>
-                        </button>
-
-                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-
-
-                <!-- SearchBar -->
-                <div class="search-item">
-                    <form class="d-flex">
-                        <input class="form-control search_input" type="search" placeholder="Search Items" aria-label="Search">
-                        <button class="btn search_btn" type="submit">Search Icon</button>
-                    </form>
-                </div>
-
-
-                <!-- WishList And Cart -->
-                <div class="cart-wishlist">
-                    <strong>WishList & cart</strong>
+                <div class="col-md-6 col-lg-6 col-sm-12 col-xs-12 ">
+                    <div class="text-md-end">Lorem ipsum dolor s Voluptatibus, numquam.</div>
                 </div>
             </div>
+        </div>
+
+        <hr>
+
+
+        <nav class="navbar navbar-expand-sm">
+            <div class="container navbar-item">
+                <a class="navbar-brand" href="index.html">BrandsZone</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse navbar-ul custom_nav_ul" id="navbarNav">
+                    <ul class="navbar-nav custom_ul ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Product</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="header-bottom">
+
+            <div class="container">
+                <div class="row custom_header_bottom">
+                    <div class="col-md-3 col-lg-3 col-sm-12">
+                        <!-- Categories Dropdown  -->
+                        <div class="categories-dropdown">
+                            <div class="btn-group custom_dropdown">
+                                <button class="btn btn-secondary btn-m custom_dropdown_btn" type="button" data-bs-toggle="dropdown" aria-expanded="true">
+                                    <div class="justify_icon"><img src="assets/icon/justify.svg" alt=""></i></div>
+                                    All Categories
+                                    <div class="dropdown-toggle custom_dropdown_toggle"></div>
+                                </button>
+
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-6 col-sm-12">
+                        <!-- SearchBar -->
+                        <div class="search-item">
+                            <form class="d-flex">
+                                <input class="form-control search_input" type="search" placeholder="Search Items" aria-label="Search">
+                                <button class="btn search_btn" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-sm-12">
+                        <!-- WishList And Cart -->
+                        <div class="cart-wishlist">
+                            <strong>WishList & cart</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+        </div>
         </div>
     </header>
 
     <section>
         <div class="container">
             <div class="row custom_slider_ad">
-                <div class="col-md-3 col-lg-3 custom_left_ad">
-                    <!-- <img src="assets/photo/demo_1.jpeg" alt=""> -->
-
+                <div class="col-md-3 col-lg-3 col-sm-12 custom_left_right_ad">
+                    <img class="left_right_ad" src="assets/photo/demo_1.jpeg" alt="">
                 </div>
                 <div class="col-md-6 col-lg-6 col-sm-12 custom_carousel">
                     <div class="owl-carousel owl-theme">
                         <div class="item">
-                            <img src="assets/photo/photo_1.jfif" alt="">
+                            <img src="assets/photo/demo_1.jpeg" alt="">
                         </div>
                         <div class="item">
-                            <img src="assets/photo/photo_2.jpg" alt="">
+                            <img src="assets/photo/demo_1.jpeg" alt="">
 
                         </div>
                         <div class="item">
-                            <img src="assets/photo/photo_3.webp" alt="">
+                            <img src="assets/photo/demo_1.jpeg" alt="">
 
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 col-lg-3 custom_left_ad">
-                    <!-- <img src="assets/photo/demo_1.jpeg" alt=""> -->
+                <div class="col-md-3 col-lg-3 col-sm-12 custom_left_right_ad">
+                    <div class="one">
+                        <img class="left_right_ad" src="assets/photo/demo_1.jpeg" alt="">
+
+                    </div>
+                    <br>
+                    <div class="two">
+                        <img class="left_right_ad" src="assets/photo/demo_1.jpeg" alt="">
+
+                    </div>
 
                 </div>
             </div>
-
-
         </div>
 
     </section>
+    <hr>
 
 
 
@@ -131,9 +165,12 @@
 
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
 
     <!-- Bootstrap5 js cdn -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script> -->
     <script src="js/custom.js"></script>
 </body>
 
