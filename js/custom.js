@@ -2,7 +2,8 @@ $(document).ready(function() {
 
     // jQuery methods go here...
 
-    $('.owl-carousel').owlCarousel({
+    //banner slider
+    $('.slider_banner').owlCarousel({
         loop: true,
         margin: 10,
         responsiveClass: true,
@@ -19,6 +20,33 @@ $(document).ready(function() {
                 items: 1,
                 nav: true,
                 loop: false
+            }
+        }
+    })
+
+    //trending slider
+    $('.trending_slider_add').owlCarousel({
+        loop:true,
+        margin:20,
+        nav:true,
+        navText:['<i class="fa-solid fa-angle-left"></i>','<i class="fa-solid fa-angle-right"></i>'],
+        animateIn: 'fadeIn',
+        autoplay:true,
+        autoplayTimeout:2000,
+        responsiveClass: true,
+        responsive: {
+            0: {
+                items: 2,
+               
+            },
+            600: {
+                items: 3,
+                
+            },
+            1000: {
+                items:6,
+               
+               
             }
         }
     })
