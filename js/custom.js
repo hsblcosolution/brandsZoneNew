@@ -29,12 +29,13 @@ $(document).ready(function() {
         nav: true,
         dots: false,
         loop: false,
+        navText: ['<i class="fa-solid fa-angle-left"></i>', '<i class="fa-solid fa-angle-right"></i>'],
         row: 2,
 
         rewind: true,
         // autoWidth: true,
         stagePadding: 0,
-        margin: 4,
+        margin: 10,
         checkVisibility: true,
         navElement: 'div',
         responsive: {
